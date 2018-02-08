@@ -14,8 +14,17 @@
         "psr-4": {
             "Adelphia\\Bitcoinode\\": "src"
         }
-    }
+    },
 
+    "extra": {
+    "laravel": {
+        "providers": [
+            "adelphia\\bitcoinode\\BitcoinodeServiceProvider"
+        ],
+        "aliases": {
+            "Mongo": "adelphia\\bitcoinode\\BitcoinodeFacades"
+        }
+    }
 }
 
-
+}
