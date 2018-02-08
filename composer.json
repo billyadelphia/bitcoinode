@@ -1,0 +1,21 @@
+{
+    "name": "adelphia/bitcoinode",
+    "description": "Easy Bitcoin API RPC-JSON Node daemon",
+    "authors": [
+        {
+            "name": "adelphia",
+            "email": "billyorigin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Adelphia\\Bitcoinode\\": "src"
+        }
+    }
+
+}
+
+
