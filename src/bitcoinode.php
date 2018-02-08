@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\adelphia\bitcoinode\src;
+namespace adelphia\bitcoinode;
 /*
 EasyBitcoin-PHP
 
