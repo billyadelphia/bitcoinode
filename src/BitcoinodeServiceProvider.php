@@ -2,7 +2,6 @@
 
 namespace Vendor\adelphia\bitcoinode\src;
 
-
 use Illuminate\Support\ServiceProvider;
 use vendor\adelphia\bitcoinode\src\Bitcoinode;
 
