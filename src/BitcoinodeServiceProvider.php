@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\adelphia\bitcoinode\src;
+namespace adelphia\bitcoinode;
 
 use Illuminate\Support\ServiceProvider;
 use vendor\adelphia\bitcoinode\src\Bitcoinode;
