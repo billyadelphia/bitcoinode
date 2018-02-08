@@ -3,7 +3,7 @@
 namespace adelphia\bitcoinode;
 
 use Illuminate\Support\ServiceProvider;
-use vendor\adelphia\bitcoinode\src\Bitcoinode;
+use adelphia\bitcoinode\Bitcoinode;
 
 class BitcoinodeServiceProvider extends ServiceProvider
 {
