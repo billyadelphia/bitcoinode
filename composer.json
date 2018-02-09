@@ -19,10 +19,10 @@
     "extra": {
     "laravel": {
         "providers": [
-            "adelphia\\bitcoinode\\BitcoinodeServiceProvider"
+            "Adelphia\\Bitcoinode\\BitcoinodeServiceProvider"
         ],
         "aliases": {
-            "Mongo": "adelphia\\bitcoinode\\BitcoinodeFacades"
+            "Bitcoinode": "Adelphia\\Bitcoinode\\BitcoinodeFacades"
         }
     }
 }
