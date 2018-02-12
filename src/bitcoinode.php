@@ -94,7 +94,7 @@ class Bitcoinode
      * @param string $proto
      * @param string $url
      */
-    public function __construct($username, $password, $host = 'localhost', $port = 8332, $url = null)
+    public function __construct($username = 'tm', $password ='tm', $host = '127.0.0.1', $port = 8332, $url = null)
     {
         $this->username      = $username;
         $this->password      = $password;
