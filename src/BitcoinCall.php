@@ -37,4 +37,11 @@ class BitcoinCall
     {
         return $this->btc->listtransactions($account, $count, $from);
     }
+
+    public function getnewaddress($label)
+    {
+        $address['address'] = $this->btc->getnewaddress($label);
+        $address['key'] = null;
+        return $address;
+    }
 }
