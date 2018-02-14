@@ -208,7 +208,7 @@ class Bitcoinode
         }
 
         if ($this->error) {
-            return false;
+            return $this->error;
         }
 
         return $this->response['result'];

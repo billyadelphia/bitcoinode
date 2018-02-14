@@ -3,7 +3,7 @@
 namespace Adelphia\Bitcoinode;
 
 use Illuminate\Support\ServiceProvider;
-use Adelphia\Bitcoinode\Bitcoinode;
+use Adelphia\Bitcoinode\BitcoinCall;
 
 class BitcoinodeServiceProvider extends ServiceProvider
 {
@@ -25,8 +25,8 @@ class BitcoinodeServiceProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->bind('Bitcoinode', function(){
-            return new Bitcoinode;
+        $this->app->bind('BitcoinCall', function(){
+            return new BitcoinCall;
         });
     }
 }
