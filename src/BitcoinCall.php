@@ -44,4 +44,9 @@ class BitcoinCall
         $address['key'] = null;
         return $address;
     }
+
+    public function sendtoaddress($address, $ammount)
+    {
+        return $this->btc->sendtoaddress($address, $ammount);
+    }
 }
