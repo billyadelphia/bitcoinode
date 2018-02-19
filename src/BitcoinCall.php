@@ -55,8 +55,10 @@ class BitcoinCall
         return $this->btc->sendfrom($from_label, $to_address, $amount);
     }
 
+
     public function move($from_label, $to_label, $amount)
     {
         return $this->btc->move($from_label, $to_label, $amount);
     }
+
 }
