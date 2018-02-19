@@ -25,7 +25,7 @@ class BitcoinCall
 
     public function getinfo()
     {
-        return $this->btc->getinfo() ;
+        return $this->btc->getwalletinfo() ;
     }
 
     public function getbalance($account = '')
@@ -48,5 +48,10 @@ class BitcoinCall
     public function sendtoaddress($address, $ammount)
     {
         return $this->btc->sendtoaddress($address, $ammount);
+    }
+
+    public function sendfrom($from_label, $to_address, $amount)
+    {
+        return $this->btc->sendfrom($from_label, $to_address, $amount);
     }
 }
