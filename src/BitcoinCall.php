@@ -25,7 +25,7 @@ class BitcoinCall
 
     public function getinfo()
     {
-        return $this->btc->getinfo() ;
+        return $this->btc->getwalletinfo() ;
     }
 
     public function getbalance($account = '')
